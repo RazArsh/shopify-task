@@ -1,0 +1,31 @@
+.productsHeaderBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBlockright {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnAdd {
+    width: 155px;
+    height: 40px;
+    border: none;
+    background-color: #008060;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockRightexpo {
+    color: black;
+    text-decoration: none;
+}

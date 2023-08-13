@@ -1,0 +1,113 @@
+.productSearchBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width: 50%;
+    position: relative;
+}
+
+.inpSearch{
+    width: 100%;
+    height: 30px;
+    padding-left: 35px;
+    border: 1px solid #cacccf;
+    border-radius: 4px;
+}
+
+.logoSearch{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 7px;
+    left: 10px;
+}
+
+.productBlockRight{
+    width: 49.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnfor{
+    width: 70%;
+    display: flex;
+}
+
+.btnProductVendor{
+    padding: 0 15px;
+    background-color: #fff;
+    border: 1px solid #cacccf;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btnTagetWith{
+    padding: 0 12px;
+    background-color: #fff;
+    border: 1px solid #cacccf;
+    border-right: none;
+    display: flex;
+    align-items: center;
+}
+
+.btnStatus{
+    padding: 0 12px;
+    background-color: #fff;
+    border: 1px solid #cacccf;
+    display: flex;
+    align-items: center;
+}
+
+.btnFilters{
+    padding: 0 12px;
+    background-color: #fff;
+    border: 1px solid #cacccf;
+    border-left: none;
+    border-radius: 3px;
+}
+
+.btnImg{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.btnImgStar{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}
+
+.btnDisablet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.btnTwo{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSort{
+    background-color: #fff;
+    border: 1px solid #cacccf;
+    padding: 0 17px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btnImgSort{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}

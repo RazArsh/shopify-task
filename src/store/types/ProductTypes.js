@@ -1,0 +1,17 @@
+const ADD_PRODUCT = "@ProductType.ADD_PRODUCT";
+const ADD_PRODUCT_FAILED = "@ProductType.ADD_PRODUCT_FAILED";
+const Get_PRODUCT = "@ProductType.GET_PRODUCT";
+const Get_PRODUCT_SUCCESS = "@ProductType.GET_PRODUCT_SUCCESS";
+const Get_PRODUCT_FAILED = "@ProductType.GET_PRODUCT_FAILED";
+const DELETE_PRODUCT = "@ProductType.DELETE_PRODUCT";
+const EDIT_PRODUCT = "@ProductType.EDIT_PRODUCT";
+
+export{
+    ADD_PRODUCT,
+    ADD_PRODUCT_FAILED,
+    DELETE_PRODUCT,
+    EDIT_PRODUCT,
+    Get_PRODUCT,
+    Get_PRODUCT_SUCCESS,
+    Get_PRODUCT_FAILED
+}

@@ -1,0 +1,97 @@
+ .photoUploader{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+	border-radius: 10px;
+} 
+
+.photoUploaderBlock{
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.photoContainer{
+    display: flex;
+} 
+
+.photoBlock{
+    border: 2px dashed #c9cccf;
+    height: 273px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.img__tel{
+    width: 350px;
+    height: 460px;
+    margin-right: 20px;
+    border: 1px solid #c9cccf;
+    padding: 50px;
+    border-radius: 5px;
+	
+}
+
+ .input-file {
+	position: relative;
+	display: inline-block;
+    text-align: center;
+}
+.input-file-btn {
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 24px;
+	color: #205199;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #e5effd;
+	line-height: 22px;
+	height: 40px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	display: block;
+    padding: 10px 0;
+    color: #205199;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+} 
+ 
+.input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+.input-file:hover .input-file-btn {
+	background-color: #59be6e;
+}
+
+.input-file:active .input-file-btn {
+	background-color: #2E703A;
+}
+ 
+.input-file input[type=file]:disabled + .input-file-btn {
+	background-color: #eee;
+}
+
+
